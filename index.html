@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Nusuk Helper</title>
+<meta name="description" content="Android helper that enters shared Nusuk invite codes on the Keys screen, with live key stats.">
+<style>
+:root{--bg:#0b2f2a;--card:#103f37;--gold:#ffc83d;--text:#eafaf5;--muted:#9fc9bd}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:linear-gradient(160deg,#0b4f45,#0b2f2a 60%);color:var(--text);min-height:100vh}
+main{max-width:640px;margin:0 auto;padding:40px 16px 32px}
+.hero{text-align:center}
+.icon{width:96px;height:96px;border-radius:24px;box-shadow:0 8px 30px #0006}
+h1{margin:16px 0 4px;font-size:32px}
+.sub{color:var(--muted);margin:0 0 24px}
+.btn{display:inline-block;background:var(--gold);color:#3a2600;font-weight:700;font-size:18px;padding:14px 32px;border-radius:14px;text-decoration:none;box-shadow:0 6px 20px #ffc83d40}
+.btn:hover{filter:brightness(1.08)}
+.ver{color:var(--muted);font-size:13px;margin-top:8px}
+section{background:var(--card);border-radius:16px;padding:20px;margin-top:20px}
+h2{margin:0 0 12px;font-size:19px}
+ul,ol{margin:0;padding-left:20px;line-height:1.7}
+pre{background:#1e2633;color:#ffe082;border-radius:12px;padding:14px;font-size:14px;line-height:1.6;overflow-x:auto;margin:0}
+.note{color:var(--muted);font-size:13px;line-height:1.6}
+footer{text-align:center;color:var(--muted);font-size:14px;margin-top:28px}
+footer a{color:var(--gold)}
+</style>
+</head>
+<body>
+<main>
+<div class="hero">
+<svg class="icon" viewBox="0 0 108 108" aria-hidden="true">
+<defs><linearGradient id="b" x1="0" y1="0" x2="108" y2="108" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0B4F45"/><stop offset="1" stop-color="#19B38A"/></linearGradient>
+<linearGradient id="g" x1="27" y1="41" x2="82" y2="65" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFF3B0"/><stop offset=".45" stop-color="#FFC83D"/><stop offset="1" stop-color="#E08A00"/></linearGradient></defs>
+<rect width="108" height="108" fill="url(#b)"/>
+<g transform="rotate(-40 54 54) translate(54 54) scale(1.18) translate(-54 -54)" fill="url(#g)">
+<path fill-rule="evenodd" d="M27,54a13,13 0,1 0,26 0a13,13 0,1 0,-26 0zM34.5,54a5.5,5.5 0,1 1,11 0a5.5,5.5 0,1 1,-11 0z"/>
+<path d="M51,50.5H82V57.5H78.5V65H72.5V57.5H69.5V62.5H64V57.5H51Z"/></g>
+<path fill="#fff" d="M34,26L35.6,31.4L41,33L35.6,34.6L34,40L32.4,34.6L27,33L32.4,31.4Z"/>
+</svg>
+<h1>Nusuk Helper</h1>
+<p class="sub">Enters shared Nusuk invite codes on the Keys screen for you</p>
+<a class="btn" href="NusukHelper.apk" download>⬇ Download APK</a>
+<div class="ver">Version 2.1 · Android 7.0+</div>
+</div>
+
+<section>
+<h2>Features</h2>
+<ul>
+<li>Floating panel inside Nusuk: 10 / 50 / 100 / custom target</li>
+<li>Taps “Add another code” after Congratulations, skips wrong codes</li>
+<li>Keyboard closes itself, finds its way back to the Keys screen</li>
+<li>Settings: time between codes, ⚡ Fast mode, 🌙 dim screen</li>
+<li>Stops by itself on any security or “too many” message</li>
+</ul>
+</section>
+
+<section>
+<h2>Live stats on the panel</h2>
+<pre>⏱ 02:31
+✅ Success 100   ❌ Failed 11
+🔑 Previous keys: 1325
+➕ New keys added: +100
+🗝 Total keys now: 1425
+Codes 111 · avg 1.36 s per code</pre>
+</section>
+
+<section>
+<h2>Install</h2>
+<ol>
+<li>Download and install the APK (allow “install unknown apps”).</li>
+<li>Settings → Accessibility → Installed apps → <b>Nusuk Helper</b> → On.<br>
+Greyed out? App info → ⋮ → <b>Allow restricted settings</b>, then try again.</li>
+<li>Open Nusuk → Keys screen and use the floating panel.</li>
+</ol>
+</section>
+
+<p class="note">Not affiliated with Nusuk or the Ministry of Hajj and Umrah. Use at your own risk — automated entry may go against Nusuk's terms of use. Codes only; it never touches the quiz.</p>
+
+<footer>Developed by Mohin · <a href="https://www.facebook.com/mohinuddin247" target="_blank" rel="noopener">Facebook</a></footer>
+</main>
+</body>
+</html>
